@@ -20,7 +20,7 @@ import { useLocation } from "@reach/router"
  * @param {string} [props.lang="en"] - HTML language attribute.
  * @param {Object[]} [props.meta=[]] - Additional meta tag definitions.
  * @param {string} props.title - Title of the page (required).
- * @param {string} [props.heading] - Optional heading (not used in meta but may be for accessibility or custom logic).
+ * @param {string} [props.heading] - Optional heading (not used in meta).
  * @returns {JSX.Element} Head metadata managed by React Helmet.
  */
 
